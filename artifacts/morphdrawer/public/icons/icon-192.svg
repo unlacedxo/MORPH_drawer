@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M96 160c-35 0-64-29-64-64s29-64 64-64 64 29 64 64-29 64-64 64z"/>
-  <path d="M60 96h72"/>
-  <path d="M96 60v72"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="MORPHDRAWER icon 192">
+    <defs>
+      <clipPath id="clip192"><rect x="0" y="0" width="192" height="192" rx="34" ry="34" /></clipPath>
+    </defs>
+    <image href="/api/assets/025B628C-4A1C-4419-B815-F5A9ABBF2678_1779104730320.png" width="192" height="192" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip192)" />
+  </svg>
