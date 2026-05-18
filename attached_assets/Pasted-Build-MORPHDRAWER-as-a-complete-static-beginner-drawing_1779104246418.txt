@@ -1,0 +1,627 @@
+Build MORPHDRAWER as a complete static beginner drawing prompt PWA.
+
+STATIC ONLY:
+- Frontend only
+- No backend
+- No database
+- No API keys
+- No OpenAI integration
+- No server routes
+- No authentication
+- Use React + Vite + Tailwind CSS
+- Use localStorage for saved prompts
+- Must deploy easily on Replit, Cloudflare Pages, Netlify, Vercel, or GitHub Pages
+
+APP PURPOSE:
+MORPHDRAWER helps beginner artists practice character drawing by generating strange, fun, shape-based drawing prompts they can draw in Procreate.
+
+The app should feel like:
+- a haunted sketchbook
+- a cozy art classroom
+- a weird character generator
+- a soft monster laboratory
+- a tactile prompt deck
+- beginner-friendly, playful, and encouraging
+
+DESIGN STYLE:
+Use:
+- paper texture overlays
+- sketchy borders
+- hand-drawn dividers
+- muted layered cards
+- imperfect shapes
+- soft shadows
+- doodle accents
+- warm weird art-studio energy
+
+Avoid:
+- corporate SaaS
+- neon cyberpunk
+- glassmorphism
+- generic AI dashboard
+- cursive fonts
+- sterile white tech design
+
+MAIN SECTIONS:
+1. Create
+2. Saved
+3. Practice
+4. Tips
+5. Settings
+
+CREATE SECTION:
+Add a big “Generate Drawing Prompt” button.
+
+Each generated prompt must combine:
+- 2 shape traits
+- 1 character type
+- 1 mood
+- 1 pose or action
+- 1 silhouette rule
+- 1 texture detail
+- 1 beginner challenge
+- 1 color palette
+- 1 weird constraint
+- 1 difficulty level
+
+Prompt card should show:
+- title
+- full prompt
+- shape combo
+- character type
+- mood
+- pose/action
+- beginner focus
+- palette
+- difficulty
+- buttons: Save, Copy, New Prompt
+
+SHAPE COMBOS:
+Include a large static array of shape traits and pair them randomly.
+
+Shape traits:
+- chunky
+- spiky
+- soft
+- angular
+- round
+- stretched
+- squashed
+- tiny
+- oversized
+- flat
+- fluffy
+- bony
+- bubbly
+- melted
+- geometric
+- delicate
+- monstrous
+- sharp
+- wobbly
+- blocky
+- noodly
+- jagged
+- pillowy
+- lopsided
+- pear-shaped
+- moon-shaped
+- thorny
+- mushroomy
+- ribbon-like
+- crystal-like
+- candle-drippy
+- cloud-soft
+- clawed
+- bean-shaped
+- skeletal
+- plushy
+- paper-thin
+- heavy
+- floating
+- tangled
+- folded
+- cracked
+- inflated
+- deflated
+- crooked
+- shell-like
+- winged
+- knotted
+- teardrop-shaped
+- star-shaped
+
+Example combos:
+- chunky + spiky
+- soft + angular
+- round + stretched
+- tiny + oversized
+- flat + fluffy
+- bony + bubbly
+- melted + geometric
+- delicate + monstrous
+- sharp + wobbly
+- blocky + noodly
+- jagged + pillowy
+- lopsided + elegant
+- mushroomy + skeletal
+- ribbon-like + crystal-like
+- candle-drippy + thorny
+- cloud-soft + clawed
+- bean-shaped + paper-thin
+- heavy + floating
+- tangled + smooth
+- cracked + plushy
+- inflated + crooked
+- shell-like + winged
+- knotted + teardrop-shaped
+- star-shaped + deflated
+
+CHARACTER TYPES:
+Use a large static array.
+
+Include:
+- moth creature
+- ghost student
+- moon rabbit
+- candle witch
+- haunted doll
+- soft monster
+- shy vampire
+- star mechanic
+- mushroom knight
+- bone fairy
+- cloud goblin
+- cathedral cat
+- ink angel
+- sleepy demon
+- sketchbook familiar
+- tiny grim reaper
+- velvet ghost
+- attic ballerina
+- lantern fox
+- teacup dragon
+- paper crown prince
+- swamp librarian
+- mirror mermaid
+- dust bunny wizard
+- button-eyed bat
+- porcelain goblin
+- chapel mouse
+- raincoat cryptid
+- flower skull child
+- moonlit clown
+- sad robot
+- glitter gargoyle
+- ribbon mummy
+- sleepy scarecrow
+- haunted plushie
+- crystal frog
+- graveyard deer
+- star-nosed imp
+- candle-headed child
+- lace skeleton
+- potion delivery girl
+- gloomy fairy godmother
+- notebook gremlin
+- cloud-haired witch
+- little plague doctor
+- soft spider prince
+- moon jelly spirit
+- pumpkin apprentice
+- chapel gargoyle
+- cosmic raccoon
+- ink-stained angel
+- woolly demon
+- broken music-box doll
+- night garden sprite
+- shape-shifting cat
+- shy werewolf
+- soft alien botanist
+- dusty oracle
+- tiny storm spirit
+- antique toy soldier
+- moth-winged librarian
+
+MOODS:
+Use a large static array.
+
+Include:
+- shy
+- dramatic
+- haunted
+- cozy
+- feral
+- elegant
+- nervous
+- dreamy
+- mischievous
+- lonely
+- theatrical
+- curious
+- grumpy
+- enchanted
+- suspicious
+- sleepy
+- proud
+- cursed
+- gentle
+- chaotic
+- tender
+- spooky
+- awkward
+- magical
+- strange
+- gloomy
+- bright-eyed
+- secretive
+- startled
+- lovesick
+- moody
+- ancient
+- silly
+- regal
+- bashful
+- defiant
+- floaty
+- intense
+- soft-hearted
+- eerie
+- hopeful
+- distracted
+- enchanted-but-tired
+- heroic-but-confused
+- villainous-but-cute
+- tragic-but-fabulous
+
+POSES / ACTIONS:
+Include:
+- holding a tiny lantern
+- hiding behind oversized sleeves
+- floating above the floor
+- carrying too many books
+- casting a very small spell
+- reaching toward a moonbeam
+- sitting in a teacup
+- guarding a mushroom door
+- chasing a runaway star
+- wearing a blanket like a cape
+- collecting little bones
+- balancing on one foot
+- peeking from behind a curtain
+- painting a ghost portrait
+- falling asleep mid-spell
+- holding a cracked mirror
+- feeding a tiny monster
+- dancing badly but confidently
+- hugging a giant pencil
+- arguing with a floating candle
+- carrying a suspicious potion
+- building a nest of paper scraps
+- walking through imaginary rain
+- polishing a halo
+- sewing patches onto a cloak
+- riding a snail
+- reading a forbidden notebook
+- holding a bouquet of weeds
+- dragging an oversized sword
+- offering a tiny cup of tea
+- pretending to be scary
+- hiding a secret in their pocket
+
+SILHOUETTE RULES:
+Include:
+- silhouette must be readable from far away
+- make the head shape the clearest feature
+- exaggerate the sleeves
+- give the character one huge shape and one tiny shape
+- keep the body simple and push the accessories
+- make the outline asymmetrical
+- use one sharp area and one soft area
+- make the pose readable without facial details
+- create a strong triangle, circle, or rectangle base
+- avoid too many tiny edges
+- make the character recognizable as a shadow
+- give them one iconic object
+- make the hair or headpiece define the silhouette
+- push the shoulders, hat, wings, or cloak
+- make the feet or hands unusually expressive
+
+TEXTURE DETAILS:
+Include:
+- cracked porcelain
+- dusty velvet
+- moth wings
+- paper grain
+- knitted wool
+- candle wax
+- chipped paint
+- soft fur
+- old lace
+- ink stains
+- graphite smudges
+- moon dust
+- worn denim
+- mushroom spots
+- tarnished metal
+- cloudy glass
+- watercolor blooms
+- scratched leather
+- cobweb lace
+- star freckles
+- torn parchment
+- ribbed fabric
+- fuzzy static
+- bone smoothness
+- velvet shadows
+- soft moss
+- dry clay
+- feather edges
+- glitter dust
+- smoky gradients
+
+BEGINNER CHALLENGES:
+Use a large static array.
+
+Include:
+- Draw using only circles, triangles, and rectangles first.
+- Make the silhouette readable before adding details.
+- Exaggerate one feature: head, hands, sleeves, hat, or shoes.
+- Draw the same character with 3 different expressions.
+- Redraw the character with half the details.
+- Make the pose clearer using one strong gesture line.
+- Use only 3 colors.
+- Add texture to only one area.
+- Draw the character once cute and once creepy.
+- Draw the character as a tiny thumbnail first.
+- Make one version simple and one version fancy.
+- Draw the character without lifting your pencil for the first sketch.
+- Start with blobs before lines.
+- Turn every detail into a bigger shape.
+- Use thick shapes before thin lines.
+- Make the outfit from only 3 large parts.
+- Draw the face with only 2 dots and 1 line.
+- Create a before-and-after transformation.
+- Draw the character from the front and side.
+- Make the hands simple mitten shapes.
+- Use one repeated motif across the design.
+- Draw the character in under 5 minutes, then redraw slowly.
+- Make the eyes the emotional center.
+- Remove anything that makes the design confusing.
+- Add one prop that explains who they are.
+- Focus only on head, torso, and pose.
+- Draw the character as a sticker.
+- Draw the character as a simple mascot logo.
+- Make a clean version after the messy version.
+- Push the contrast between big, medium, and small shapes.
+- Use a mirror test: flip the drawing and fix one thing.
+- Make the character readable without color.
+- Draw the character as if it were a plush toy.
+- Draw the character as if it were a video game icon.
+- Give the character one repeated shape language.
+- Use no more than 7 total details.
+- Make the pose more dramatic than feels normal.
+- Draw the same idea as baby, teen, and ancient versions.
+- Draw the character with only shadow shapes first.
+- Make the accessory bigger than expected.
+
+COLOR PALETTES:
+Include:
+- dusty mauve, bone cream, smoky brown
+- moon gray, muted lavender, cold white
+- candle gold, deep plum, aged cream
+- parchment, ink brown, faded black
+- moss green, mushroom beige, fog gray
+- antique rose, ash blue, warm ivory
+- bruised violet, pale gold, soot black
+- clay pink, soft rust, cream
+- storm blue, silver, graphite
+- faded teal, dusty peach, warm gray
+- ghost white, lavender ash, charcoal
+- velvet burgundy, candle cream, muted rose
+- old paper, sage green, dark umber
+- milk blue, cloud gray, soft yellow
+- black tea, ivory, tarnished gold
+
+WEIRD CONSTRAINTS:
+Include:
+- only one eye is visible
+- the character has an object bigger than their body
+- no straight lines
+- no perfect symmetry
+- one limb is exaggerated
+- the outfit must include a cape
+- include one tiny companion creature
+- include three stars somewhere
+- make the shoes ridiculous
+- add a secret pocket
+- include a floating object
+- use only round shapes for the first sketch
+- use only angular shapes for the first sketch
+- make the character look like a collectible toy
+- make the character look like a forgotten storybook illustration
+- include one object that does not belong
+- add a tiny crown
+- include a patched-up detail
+- make the character slightly haunted but still cute
+- add one impossible detail
+
+PRACTICE MODES:
+Add smaller generators for:
+
+1. Silhouette Mode
+Generates shape combo + character type + silhouette rule.
+
+2. Expression Mode
+Generates character type + mood + 3 expressions to draw.
+
+3. Outfit Mode
+Generates character type + clothing texture + outfit constraint.
+
+4. Creature Mode
+Generates creature type + body shape + weird feature.
+
+5. Shape Remix Mode
+Generates 3 shapes and asks user to build a character from them.
+
+6. Color Constraint Mode
+Generates palette + mood + color limitation.
+
+7. Prop Mode
+Generates a character-defining object.
+
+8. Redraw Mode
+Gives a prompt for improving an old drawing.
+
+9. Sticker Mode
+Turns a character idea into a simple sticker design.
+
+10. Procreate Practice Mode
+Gives a drawing exercise specifically meant to be drawn in Procreate.
+
+TIPS SECTION:
+Create beginner-friendly advice cards:
+- Start ugly, then sculpt.
+- Big shapes first, tiny details last.
+- Silhouette is the skeleton of style.
+- One strong idea beats twenty weak details.
+- Redraw, don’t restart.
+- Mistakes are breadcrumbs.
+- Draw the blob before the beauty.
+- If it looks stiff, push the pose.
+- If it looks boring, change the proportions.
+- If it looks messy, simplify the shape language.
+- Make one thing huge, one thing tiny, and one thing weird.
+- Details should decorate the idea, not bury it.
+
+SAVED SECTION:
+Use localStorage.
+User can:
+- save prompts
+- view saved prompts
+- copy saved prompts
+- delete one prompt
+- clear all prompts
+
+SETTINGS SECTION:
+Add theme switcher with four custom themes:
+
+1. Moth Dust
+Colors:
+- dusty taupe
+- faded mauve
+- warm gray
+- soft cream
+- smoky brown
+Feeling:
+powdery wings, antique paper, attic light
+
+2. Bone Archive
+Colors:
+- bone white
+- parchment
+- ink brown
+- faded black
+- old ivory
+Feeling:
+haunted library, anatomy notes, forgotten sketches
+
+3. Lunar Static
+Colors:
+- moon gray
+- blue-black
+- pale silver
+- muted lavender
+- cold white
+Feeling:
+moonlight, graphite, soft TV static
+
+4. Cathedral Dust
+Colors:
+- stone gray
+- candle gold
+- deep plum
+- dusty rose
+- aged cream
+Feeling:
+stained glass shadows, old velvet, sacred sketchbook chaos
+
+Theme switcher affects:
+- background
+- cards
+- buttons
+- borders
+- text
+- accent tags
+- navigation
+- hover states
+- saved cards
+- prompt cards
+
+PWA REQUIREMENTS:
+Create:
+- public/manifest.json
+- public/sw.js
+- app icons as SVG files
+- offline support
+- installable app behavior
+
+Manifest:
+- name: MORPHDRAWER
+- short_name: MorphDrawer
+- display: standalone
+- start_url: /
+- theme_color should match current style
+- background_color should be soft and muted
+
+FILES TO CREATE:
+- package.json
+- index.html
+- vite.config.js
+- src/main.jsx
+- src/App.jsx
+- src/index.css
+- public/manifest.json
+- public/sw.js
+- public/icons/icon-192.svg
+- public/icons/icon-512.svg
+
+PACKAGE SCRIPTS:
+Use:
+- npm run dev
+- npm run build
+- npm run preview
+
+QUALITY REQUIREMENTS:
+- Must compile with no errors.
+- Must be fully static.
+- Must work after refresh.
+- Must save prompts with localStorage.
+- Must work offline after first load.
+- Must be responsive on mobile and desktop.
+- Must have accessible buttons.
+- Must have copy-to-clipboard feedback.
+- Must have save confirmation feedback.
+- Must include empty states.
+- Must use readable non-cursive fonts.
+- Must use clean components inside App.jsx or separate components if helpful.
+- Must not require environment variables.
+
+EXTRA POLISH:
+Add:
+- Today’s Drawing Spell
+- random warm encouragement line
+- difficulty badge
+- prompt history during session
+- subtle card animations
+- hand-drawn decorative marks using CSS
+- small “Beginner Focus” label
+- “Draw this in Procreate” copy-friendly output
+- responsive bottom nav on mobile
+- desktop side/header nav
+- tactile hover effects
+
+FINAL RESULT:
+A complete working static PWA called MORPHDRAWER.
+
+It should feel like a pocket-sized creature workshop for beginner artists: strange, soft, useful, encouraging, tactile, and actually fun to open every day.
